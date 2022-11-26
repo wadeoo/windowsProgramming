@@ -1,0 +1,23 @@
+﻿生成启动时间为 2022/11/9 12:00:57。
+     1>项目“D:\BASIC\Desktop\windowsProgramming\第一次代码\02MemRepair\02MemRepair.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\02MemRepair.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 02MemRepair.cpp
+         02MemRepair.cpp
+     1>d:\basic\desktop\windowsprogramming\第一次代码\02memrepair\memrepair.h(63): warning C4996: 'GetVersionExA': 被声明为已否决
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+     1>d:\basic\desktop\windowsprogramming\第一次代码\02memrepair\02memrepair.cpp(43): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>d:\basic\desktop\windowsprogramming\第一次代码\02memrepair\02memrepair.cpp(55): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>d:\basic\desktop\windowsprogramming\第一次代码\02memrepair\02memrepair.cpp(67): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\02MemRepair.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\02MemRepair.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\02MemRepair.lib" /MACHINE:X86 /SAFESEH .\Debug\02MemRepair.obj
+         .\Debug\StdAfx.obj
+     1>02MemRepair.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         02MemRepair.vcxproj -> D:\BASIC\Desktop\windowsProgramming\第一次代码\02MemRepair\.\Debug\02MemRepair.exe
+     1>已完成生成项目“D:\BASIC\Desktop\windowsProgramming\第一次代码\02MemRepair\02MemRepair.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.11

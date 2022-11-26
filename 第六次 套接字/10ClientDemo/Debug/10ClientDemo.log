@@ -1,0 +1,18 @@
+﻿生成启动时间为 2022/11/23 12:00:48。
+     1>项目“D:\BASIC\Desktop\windowsProgramming\第六次 套接字\10ClientDemo\10ClientDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ClientDemo.cpp
+         ClientDemo.cpp
+     1>d:\basic\desktop\windowsprogramming\第六次 套接字\10clientdemo\clientdemo.cpp(63): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(254) : 参见“gets”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\10ClientDemo.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\10ClientDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\10ClientDemo.lib" /MACHINE:X86 /SAFESEH .\Debug\ClientDemo.obj
+         .\Debug\SocketClassClient.obj
+         10ClientDemo.vcxproj -> D:\BASIC\Desktop\windowsProgramming\第六次 套接字\10ClientDemo\.\Debug\10ClientDemo.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\10ClientDemo.bsc" .\Debug\ClientDemo.sbr .\Debug\SocketClassClient.sbr
+     1>已完成生成项目“D:\BASIC\Desktop\windowsProgramming\第六次 套接字\10ClientDemo\10ClientDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.60
