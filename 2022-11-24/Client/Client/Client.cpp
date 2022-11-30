@@ -47,8 +47,6 @@ void main()
 
 	while (TRUE)
 	{
-
-
 		//客户端向服务器发送信息
 		getchar();
 		char* mymsg = new char[10000];
